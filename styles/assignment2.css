@@ -138,8 +138,86 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* width: 140px;
+    height: 197.5px; */
 }
 .para{
     font-weight: 500;
     font-size: 0.994rem;
+    margin-bottom: 33px;
+}
+.card-1{
+    background: linear-gradient(#DEF5FF, white);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05) inset;
+    border-radius: 18.86px;
+    border: 1px solid #DEF5FF;
+}
+.card-2{
+    background: linear-gradient(#FFF4DC, white);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05) inset;
+    border-radius: 18.86px;
+    border: 1px solid #FFF4DC;
+}
+.card-3{
+    background: linear-gradient(#F2E8FF, white);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05) inset;
+    border-radius: 18.86px;
+    border: 1px solid #F2E8FF;
+}
+.card-container{
+    justify-content: center;
+    gap: 28.29px;
+    margin: 80px 140px 80px 140px;
+    
+}
+.kinder, .elementary, .middle{
+    padding: 52px 115px 0 115px;
+}
+.title2{
+    font-size: 2.875rem;
+    font-weight: 700;
+    color: black;
+}
+.subheading1,.subheading2,.subheading3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+}
+.subheading1{
+    margin-top: 10px;
+}
+.Read-1{
+    color: #64C8FF;
+}
+.Read-2{
+    color: #F0AA00;
+}
+.Read-3{
+    color: #8700FF;
+    font-size: 0.994rem;
+    font-weight: 500;
+    margin-bottom: 58px;
+}
+.bg-1{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: 1440px 879px;
+    /* border: 1px solid black; */
+
+}
+.btnz{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.btnz-1, .btnz-2{
+    border-radius: 30px;
+    border-color: orange;
+    color: white;
+    padding: 17px 22.5px 19px 22.5px;
+    background-color: orange;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
